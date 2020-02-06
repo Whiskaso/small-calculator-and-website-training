@@ -1,20 +1,15 @@
-function getInputValue() {
+function getInputsValues() {
 
-    var coursePriceInDollars = document.getElementById('priceInput').value;     // variable with price course 
+    var coursePriceInDollars = document.getElementById('priceInput').value;     // variable with price course from first input 
 
-    var coursePriceInZl = coursePriceInDollars * 3.86;         
+    var currencyToPln = document.getElementById('currencyInput').value;         //variable with currency calculated to PLN from second input
 
-    if (coursePriceInZl > 300) {
-        document.write('DONT BUY IT !');
-    } else {
-        alert('You can buy it ;)');
-    }
+    var coursePriceInZl = coursePriceInDollars * currencyToPln;         
     
+    if (coursePriceInZl > 300) {
+        alert('DONT BUY IT ! The price is ' + coursePriceInZl + 'zł !');
+    } else {
+        alert('You can buy it ;) The price is ' + coursePriceInZl + 'zł !');
+    }
 }
-
-
-
-console.log(coursePriceInZl);
-
-console.log(coursePriceInDollars);
 

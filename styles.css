@@ -9,6 +9,7 @@ h1 {
 }
 
 input {
+    margin: 5px;
     padding: 5px;
     text-align: center;
     border-width: 2px;
