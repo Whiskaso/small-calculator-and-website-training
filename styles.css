@@ -1,0 +1,18 @@
+body {
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+    font-family: fantasy;
+}
+
+input {
+    padding: 5px;
+    text-align: center;
+    border-width: 2px;
+    border-color: sienna;
+    border-style: solid;
+
+}
