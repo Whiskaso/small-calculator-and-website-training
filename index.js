@@ -7,9 +7,9 @@ function getInputsValues() {
     var coursePriceInZl = coursePriceInDollars * currencyToPln;         
     
     if (coursePriceInZl > 300) {
-        alert('DONT BUY IT ! The price is ' + coursePriceInZl + 'zł !');
+        document.getElementById('placeForPrice').innerHTML = 'DONT BUY IT ! The price is ' + coursePriceInZl + 'zł !';
     } else {
-        alert('You can buy it ;) The price is ' + coursePriceInZl + 'zł !');
+        document.getElementById('placeForPrice').innerHTML = 'You can buy it ;) The price is ' + coursePriceInZl + 'zł !';
     }
 }
 
