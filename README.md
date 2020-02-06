@@ -1,2 +1,3 @@
 # small-calculator-and-website-training
-basic training html, css and js 
+basic training html, css and js
+test
