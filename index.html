@@ -8,19 +8,24 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Hello Student !</h1>
-
-    <h2>Do you want to buy course ?</h2>
-    <p>Are you wondering that the price is too big, check it !</p>
-    <p>Write a price of course and the value of currency after calculating to PLN:</p>
     
-    <form>
-        <input type="number" name="price" placeholder="PRICE" maxlength="10" id="priceInput">
-        <br>
-        <input type="number" name="currencyToPLN" placeholder="CURRENCY TO PLN" maxlength="10" id="currencyInput">
-        <br>
-        <button type="button" onclick="getInputsValues();">Check it!</button>
-    </form>
+    <div>
+        <h1>Hello Student !</h1>
+
+        <h2>Do you want to buy course ?</h2>
+        <p>Are you wondering that the price is too big, check it !</p>
+        <p>Write a price of course and the value of currency after calculating to PLN:</p>
+    </div>
+
+    <div>
+        <form>
+            <input type="number" name="price" placeholder="PRICE" maxlength="10" id="priceInput">
+            <br>
+            <input type="number" name="currencyToPLN" placeholder="CURRENCY TO PLN" maxlength="10" id="currencyInput">
+            <br>
+            <button type="button" onclick="getInputsValues();">Check it!</button>
+        </form>
+    </div>
 
     <h1 id="placeForPrice"></h1>
 
