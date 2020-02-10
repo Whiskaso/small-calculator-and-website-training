@@ -14,16 +14,23 @@
 
         <h2>Do you want to buy course ?</h2>
         <p>Are you wondering that the price is too big, check it !</p>
-        <p>Write a price of course and the value of currency after calculating to PLN:</p>
+        <p>Write a <b>price</b> of course and choose the <b>currency</b>.</p>
     </div>
 
     <div>
         <form>
             <input type="number" name="price" placeholder="PRICE" maxlength="10" id="priceInput">
             <br>
-            <input type="number" name="currencyToPLN" placeholder="CURRENCY TO PLN" maxlength="10" id="currencyInput">
+            <label for="currency">Choose a currency:</label>
+            <select id="currency">
+                <option value="PLN">PLN</option>
+                <option value="USD">USD</option>
+                <option value="GBP">GBP</option>
+                <option value="CHF">CHF</option>
+                <option value="CZK">CZK</option>
+            </select>
             <br>
-            <button type="button" onclick="getInputsValues();">Check it!</button>
+            <button type="button" onclick="calculatingPrice();">Check it!</button>
         </form>
     </div>
 
