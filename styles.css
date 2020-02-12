@@ -23,16 +23,9 @@ input {
     border-style: solid;
 }
 
-/*
-#priceInput {
-    float: left;
+hr {
+    border-top: 2px solid pink;
 }
-
-#currencyInput {
-    float: right;
-}
-
-*/
 
 button {
     background-color: #4CAF50; /* Green */
