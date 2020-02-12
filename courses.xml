@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses>
+    <course category="programming">
+        <title>FreeCodeCamp</title>
+        <author>Lorem ipsum</author>
+        <learningArea>HTML, CSS, JS and much more</learningArea>
+    </course>
+
+    <course category="informatics">
+        <title>Udemy</title>
+        <author>LOREM IPSUM</author>
+        <learningArea>Every programming language</learningArea>
+    </course>
+    
+    <course category="programming">
+        <title>Codeacademy</title>
+        <author>Someone</author>
+        <learningArea>Pyton, JS, Java</learningArea>
+    </course>
+    
+    <course category="programming">
+        <title>JavaScript30</title>
+        <author>Wes Bos</author>
+        <learningArea>Java Script</learningArea>
+    </course>
+    
+    <course category="biology">
+        <title>Lorem ipsum</title>
+        <author>Lorem ipsum</author>
+        <learningArea>Lorem ipsum</learningArea>
+    </course>
