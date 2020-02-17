@@ -46,17 +46,17 @@ function generateTable(xml) {
     var i;
     var xmlDoc = xml.responseXML;
     var table = '<tr><th>Title</th><th>Author</th><th>Learning Area</th><th>Price</th></tr>';
-    var x = xmlDoc.getElementsByTagName('course');
-    for (i = 0; i < x.lenght; i++) {
-        table += '<tr><td>' + 
-        x[i].getElementsByTagName('title')[0].childNodes[0].nodeValue + 
-        '</td></tr>' +
-        x[i].getElementsByTagName('author')[0].childNodes[0].nodeValue + 
-        '</tr></td>' +
-        x[i].getElementsByTagName('learningArea')[0].childNodes[0].nodeValue + 
-        '</tr></td>' +
-        x[i].getElementsByTagName('price')[0].childNodes[0].nodeValue + 
-        '</tr></td>';
+    var x = xmlDoc.getElementsByTagName('COURSE');
+    for (i = 0; i <x.length; i++) { 
+        table += '<tr><td>' +
+        x[i].getElementsByTagName('TITLE')[0].childNodes[0].nodeValue +
+        '</td><td>' +
+        x[i].getElementsByTagName('AUTHOR')[0].childNodes[0].nodeValue +
+        '</td><td>' +
+        x[i].getElementsByTagName('LEARNINGAREA')[0].childNodes[0].nodeValue +
+        '</td><td>' +
+        x[i].getElementsByTagName('PRICE')[0].childNodes[0].nodeValue +
+        '</td></tr>';
     }
     document.getElementById('printTable').innerHTML = table; 
 }
