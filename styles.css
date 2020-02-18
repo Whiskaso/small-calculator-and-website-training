@@ -3,9 +3,24 @@ html {
 }
 
 body {
-    background-color: #d3d3d3;
     text-align: center;
-    background: linear-gradient(30deg, #4CAF50, white);
+    background: linear-gradient(360deg, #4CAF50, white);
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    width: 476px;
+    margin-left: -238px;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 2px solid rgb(173, 161, 161);
+}
+
+th {
+    font-size: large;
 }
 
 h1 {
@@ -24,7 +39,7 @@ input {
 }
 
 hr {
-    border-top: 2px solid pink;
+    border: 2px solid rgb(173, 161, 161);
 }
 
 button {
@@ -59,7 +74,7 @@ button:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: pink;
+    background-color: rgb(173, 161, 161);
     height: 50px;
     width: 50px;
     transform: rotate(-45deg);
@@ -69,7 +84,7 @@ button:hover {
 }
 
 .heart:after {
-    background-color: pink;
+    background-color: rgb(173, 161, 161);
     content: "";
     border-radius: 50%;
     position: absolute;
@@ -80,7 +95,7 @@ button:hover {
   }
 
   .heart:before {
-    background-color: pink;
+    background-color: rgb(173, 161, 161);
     content: "";
     border-radius: 50%;
     position: absolute;
